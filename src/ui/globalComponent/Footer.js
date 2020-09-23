@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {SocialMediaIconsReact} from 'social-media-icons-react';
+import { SocialIcon } from 'react-social-icons';
 import './Footer.scss';
 import orange from '../../assets/images/orange-money.jpg'
 
@@ -26,15 +26,15 @@ class Footer extends Component {
                                 <li><a href="/#">Confidentialité</a></li>
                                 <li><a href="/#">Termes & Conditions</a></li>
                             </ul>
-                        </div>
-                        <div className="col-sm-12 col-md-3">
+                        </div>                        <div className="col-sm-12 col-md-3">
                             <h4 className="text-white">Contact</h4>
                             <ul>
                                 <li>Entre Cops, Yaoundé Cameroun</li>
                                 <li>Appelez-nous: 697395271</li>
                                 <li>Email: dtamamot@gmail.com</li>
                                 <li className="mt-5"><b>Suivez-nous sur:</b></li>
-                                <li><SocialMediaIconsReact size={40} icon="facebook" url="https://www.facebook.com/Entre-Cops-101914647857273/"/></li>
+                                
+                                <li><SocialIcon url="https://www.facebook.com/Entre-Cops-101914647857273/" size={30} /></li>
                             </ul>
                         </div>
                         <div className="col-sm-12 col-md-3">
